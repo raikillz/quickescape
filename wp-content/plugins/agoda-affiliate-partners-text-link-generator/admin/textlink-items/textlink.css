@@ -1,0 +1,195 @@
+/*
+Agoda Affiliate Partners Text Link Generator WordPress plugin, Copyright © 2017 Agoda Company Pte. Ltd. (Agoda.com)
+Agoda Affiliate Partners Text Link Generator is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+http://www.gnu.org/licenses/gpl-2.0.html
+You should have received a copy of the GNU General Public License along with this program; see also above URL; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+*/
+
+#agdtlwp-textlink-container #textlink-container .instruction{
+	font-style:italic;
+	color: #666;
+}
+
+
+#agdtlwp-textlink-container #search-criteria{
+	border:none!important;
+}
+
+#agdtlwp-textlink-container #search-result{
+	border:1px solid #ddd;
+	height:163px;
+	overflow:hidden;
+}
+
+#agdtlwp-textlink-container #search-result ul li{
+	line-height:26px;
+	border-bottom:1px solid #ddd;
+	padding-left:6px;
+	padding-right:6px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+#agdtlwp-textlink-container #search-result #search-result-instruction{
+	line-height:28px;
+	border-bottom:1px solid #ddd;
+	padding-left:6px;
+	padding-right:6px;
+	background-color:#f7fcfe;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;    
+	border-left: 4px solid #00a0d2;
+}
+
+#agdtlwp-textlink-container #search-result #search-result-instruction.no-result{
+	border-left: 4px solid #d54e21;
+	background-color:#fef7f1;
+}
+
+#agdtlwp-textlink-container #search-result ul li:hover{
+	background-color :#eaf2fa;
+}
+
+#agdtlwp-textlink-container #search-result ul li.selected{
+	background-color :#ddd;
+}
+
+#agdtlwp-textlink-container #search-result ul li:last-child{
+	border-bottom:none;
+}
+
+#agdtlwp-textlink-container #search-result ul li .suggestion-country{
+	line-height:26px;
+}
+
+#agdtlwp-textlink-container #search-criteria{
+	margin:0!important;
+	padding:0!important;
+}
+
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item.mce-criteria-active button{
+	color:#fff!important;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item button{
+	line-height:26px;
+	margin:0;
+	padding:0;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item:first-child{
+	margin-left:0;
+}
+
+#agdtlwp-textlink-container #search-criteria{
+	margin:0!important;
+	padding:0!important;
+	height:32px!important;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item{
+	width:29.5%;
+	border-radius:0;
+	box-shadow:none;
+	text-align:center;
+	border:1px solid #ccc;
+	background-color: #fff;
+	float:left;
+	height:30px!important;
+	line-height:30px;
+	cursor:pointer;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item:first-child{
+	margin-left:24%!important;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item:last-child{
+	margin-left:2.5%!important;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item.mce-criteria-active{
+	background-color: #0085ba;
+	color:#fff!important;
+}
+
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item:hover{
+	border:1px solid #999;
+}
+
+#agdtlwp-textlink-container #search-criteria .mce-criteria-item:first-child{
+	margin-left:0;
+}
+
+#agdtlwp-textlink-container #cid-input-l{
+	width:20%!important;
+	text-align:right;
+}
+#agdtlwp-textlink-container #cid-input{
+	width:60%!important;
+	left:24%!important;
+}
+
+#agdtlwp-textlink-container #link-text-input-l{
+	width:20%!important;
+	text-align:right;
+}
+
+#agdtlwp-textlink-container #link-text-input{
+	width:60%!important;
+	 left:24%!important;
+}
+
+#agdtlwp-textlink-container #newtab-checkbox{
+	 left:24%!important;
+}
+
+#agdtlwp-textlink-container #remember-checkbox{
+	 left:24%!important;
+}
+
+#agdtlwp-textlink-container #search-input-l{
+	width:20%!important;
+	text-align:right;
+}
+#agdtlwp-textlink-container #search-input{
+	width:60%!important;
+	left:24%!important;
+}
+
+#agdtlwp-textlink-container #add-link-button{
+	left:auto!important;
+	right:20px!important;
+}
+
+#agdtlwp-textlink-container #add-link-button button{
+	padding:2px 4px;
+}
+
+#agdtlwp-textlink-container #cancel-button{
+	left:20px!important;
+}
+
+#agdtlwp-textlink-container #clear-search{
+	width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 5px;
+	right:15%;
+	display:none;
+}
