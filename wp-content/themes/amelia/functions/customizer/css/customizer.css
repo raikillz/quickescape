@@ -1,0 +1,39 @@
+/**
+* Custom Styling for the WordPress Customizer
+*/
+
+.customize-control-title{
+	margin: 2px 0 8px;
+}
+
+#customize-control-upload_logo:after {
+	content:"Note: Doesn't work if you have uploaded an image logo.";
+	font-size:12px;
+	font-style:italic;
+	color:#888;
+}
+
+.pixelshow-radio-image-control,
+#customize-control-upload_logo,
+#customize-control-upload_favicon,
+#customize-control-featured_cat,
+#customize-control-header_padding_bottom,
+#customize-control-color_accent,
+#customize-control-color_more_bg,
+#customize-control-color_more_text,
+#customize-control-color_more_bg_hover,
+#customize-control-background_image,
+#customize-control-color_more_text_hover,
+#customize-control-body_background_size,
+#customize-control-footer_copyright_left{
+	border-bottom: 1px solid #d4d4d4; padding-bottom: 20px;margin-bottom:10px;
+}
+
+#input_header_view_style label{
+	height: 100px;
+}
+
+.pixelshow-radio-image-control input.radio-image { display: none; }
+.pixelshow-radio-image-control label { margin: 2px 3px 10px; display: inline-block; text-align: center; width: 46%;height:160px;}
+.pixelshow-radio-image-control img { border: 3px solid #ddd; width: 100; margin-bottom: 5px;margin-top:0;}
+.pixelshow-radio-image-control input.radio-image:checked + label img { border-color: #0085ba; }
